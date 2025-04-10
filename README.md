@@ -1,2 +1,1 @@
-# Jk10
- Jumaa10
+A C project on telecom billing
