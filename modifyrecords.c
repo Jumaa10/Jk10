@@ -1,4 +1,4 @@
-// Function to modify a customer record
+// function to modify a customer record
 void modifyRecord(char phoneNumber[])
 {
     for (int i = 0; i < customerCount; i++)
