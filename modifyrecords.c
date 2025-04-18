@@ -1,4 +1,4 @@
-// Function to modify a customer record
+// function to modify a customer record
 void modifyRecord(char phoneNumber[])
 {
     for (int i = 0; i < customerCount; i++)
@@ -9,8 +9,13 @@ void modifyRecord(char phoneNumber[])
         scanf("%f", &customers[i].usage);
         customers[i].totalBill = customers[i].usage * 0.1;
         printf("\nRecord modified successfully!\n");
+        clearInputbuffer();
         return;
     }
+    clearInputBuffer();
+    customers[i].totalBill = customers[i].usage * 0.1;
+    printf("\nRecord modified successfully!\n");
+    return;
     }
     printf("\nRecord not found!\n");
 }
