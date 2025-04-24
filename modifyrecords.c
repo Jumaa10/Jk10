@@ -17,5 +17,6 @@ void modifyRecord(char phoneNumber[])
     printf("\nRecord modified successfully!\n");
     return;
     }
+    }
     printf("\nRecord not found!\n");
 }
